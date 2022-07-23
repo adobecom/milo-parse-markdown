@@ -7,7 +7,7 @@ export default {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'parseMarkdown.bundle.js',
     path: path.resolve(__dirname, 'dist'),
     library: {
       type: 'module',
